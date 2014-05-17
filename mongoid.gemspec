@@ -15,12 +15,12 @@ Gem::Specification.new do |s|
   s.description = "Mongoid is an ODM (Object Document Mapper) Framework for MongoDB, written in Ruby."
   s.license     = "MIT"
 
-  s.required_ruby_version     = ">= 1.9"
+  s.required_ruby_version     = ">= 2.0"
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "mongoid"
 
-  s.add_dependency("activemodel", ["~> 4.0.0"])
-  s.add_dependency("tzinfo", ["~> 0.3.22"])
+  s.add_dependency("activemodel", ["~> 4.1.0"])
+  s.add_dependency("tzinfo", ["~> 1.1.0"])
   s.add_dependency("moped", ["~> 1.4"])
   s.add_dependency("origin", ["~> 1.0"])
 
